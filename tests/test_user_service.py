@@ -1,6 +1,7 @@
 # tests/test_user_service.py
 from src.services.user_service import create_user
 
+
 def test_create_user(db_session):
     # Arrange
     name = "John Doe"
@@ -12,7 +13,6 @@ def test_create_user(db_session):
     # Assert
     assert user.name == name
     assert user.email == email
-
 
 
 def test_create_duplicate_user(db_session):

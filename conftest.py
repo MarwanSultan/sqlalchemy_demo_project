@@ -6,7 +6,8 @@ from src.db.database import engine, Session, Base
 from src.services.user_service import create_user
 
 # Add the project root directory to sys.path
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../..")))
+
 
 @pytest.fixture(scope="function")
 def db_session():
