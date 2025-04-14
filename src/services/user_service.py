@@ -2,6 +2,7 @@
 from sqlalchemy.orm import Session
 from src.models.users import User
 import logging
+
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
