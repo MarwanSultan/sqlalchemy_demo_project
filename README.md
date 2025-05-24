@@ -1,6 +1,7 @@
 # SQLAlchemy Demo Project
 
-This project demonstrates the integration of SQLAlchemy with Pytest for effective database testing in Python applications.
+A clean, modular demonstration of SQLAlchemy's ORM and core features, designed for QA engineers and developers to validate and automate database operations. This project showcases best practices in schema design, CRUD operations, transactional integrity, and integration with Python-based test frameworks like pytest. Ideal for learning or extending into real-world data validation and automated QA scenarios.
+
 
 ## Features
 
